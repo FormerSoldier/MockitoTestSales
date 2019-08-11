@@ -53,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="36" column="46" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="46" />
+              <caret line="36" column="44" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#355#372#0" expanded="true" />
@@ -75,8 +75,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-440">
-              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="328">
+              <caret line="47" column="90" selection-start-line="47" selection-start-column="90" selection-end-line="47" selection-end-column="90" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -233,23 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SalesAppTest.testGetSales_given_sales_effectiveForm_before_today_sales_effectiveTo_before_today_and_salesDao_then_return_null">
-    <configuration name="SalesAppTest.testGetSalesBySalesId_givenSalesIdAndSalesDao_then" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myHomework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sales" />
-      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
-      <option name="METHOD_NAME" value="testGetSalesBySalesId_givenSalesIdAndSalesDao_then" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SalesAppTest.testGetSales_given_sales_effectiveForm_after_today_sales_effectiveTo_after_today_and_salesDao_then_return_null">
     <configuration name="SalesAppTest.testGetSales_given_sales_EffectiveFrom_before_tody_and_effectoveTo_after_today_and_salesDao_thenSales" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myHomework" />
       <extension name="coverage">
@@ -261,6 +248,22 @@
       <option name="PACKAGE_NAME" value="sales" />
       <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
       <option name="METHOD_NAME" value="testGetSales_given_sales_EffectiveFrom_before_tody_and_effectoveTo_after_today_and_salesDao_thenSales" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesAppTest.testGetSales_given_sales_effectiveForm_after_today_sales_effectiveTo_after_today_and_salesDao_then_return_null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sales" />
+      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
+      <option name="METHOD_NAME" value="testGetSales_given_sales_effectiveForm_after_today_sales_effectiveTo_after_today_and_salesDao_then_return_null" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -316,11 +319,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SalesAppTest.testGetSales_given_sales_effectiveForm_after_today_sales_effectiveTo_after_today_and_salesDao_then_return_null" />
         <item itemvalue="JUnit.SalesAppTest.testGetSales_given_sales_effectiveForm_before_today_sales_effectiveTo_before_today_and_salesDao_then_return_null" />
         <item itemvalue="JUnit.SalesAppTest.testGetSales_given_sales_effectiveTo_before_today_and_salesDao_then_return_null" />
         <item itemvalue="JUnit.SalesAppTest.testGetSales_given_sales_effectiveTo_before_today_and_salesDao_thenSales" />
         <item itemvalue="JUnit.SalesAppTest.testGetSales_given_sales_EffectiveFrom_before_tody_and_effectoveTo_after_today_and_salesDao_thenSales" />
-        <item itemvalue="JUnit.SalesAppTest.testGetSalesBySalesId_givenSalesIdAndSalesDao_then" />
       </list>
     </recent_temporary>
   </component>
@@ -338,12 +341,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SalesAppTest_testGetSales_given_sales_EffectiveFrom_before_tody_and_effectoveTo_after_today_and_salesDao_thenSales - 2019.08.11 at 17h 01m 37s.xml">
-      <configuration name="SalesAppTest.testGetSales_given_sales_EffectiveFrom_before_tody_and_effectoveTo_after_today_and_salesDao_thenSales" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalesAppTest_testGetSales_given_sales_EffectiveFrom_before_tody_and_effectoveTo_after_today_and_salesDao_thenSales - 2019.08.11 at 17h 02m 53s.xml">
-      <configuration name="SalesAppTest.testGetSales_given_sales_EffectiveFrom_before_tody_and_effectoveTo_after_today_and_salesDao_thenSales" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SalesAppTest_testGetSales_given_sales_EffectiveFrom_before_tody_and_effectoveTo_after_today_and_salesDao_thenSales - 2019.08.11 at 17h 03m 04s.xml">
       <configuration name="SalesAppTest.testGetSales_given_sales_EffectiveFrom_before_tody_and_effectoveTo_after_today_and_salesDao_thenSales" configurationId="JUnit" />
     </history-entry>
@@ -368,6 +365,12 @@
     <history-entry file="SalesAppTest_testGetSales_given_sales_effectiveTo_before_today_and_salesDao_then_return_null - 2019.08.11 at 17h 09m 20s.xml">
       <configuration name="SalesAppTest.testGetSales_given_sales_effectiveTo_before_today_and_salesDao_then_return_null" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SalesAppTest_testGetSales_given_sales_effectiveTo_before_today_and_salesDao_then_return_null - 2019.08.11 at 17h 11m 28s.xml">
+      <configuration name="SalesAppTest.testGetSales_given_sales_effectiveTo_before_today_and_salesDao_then_return_null" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalesAppTest_testGetSales_given_sales_effectiveForm_before_today_sales_effectiveTo_before_today_and_salesDao_then_return_null - 2019.08.11 at 17h 14m 02s.xml">
+      <configuration name="SalesAppTest.testGetSales_given_sales_effectiveForm_before_today_sales_effectiveTo_before_today_and_salesDao_then_return_null" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -385,14 +388,14 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.826226" visible="true" weight="0.44637054" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.826226" weight="0.44637054" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4989339" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.17377399" side_tool="true" visible="true" weight="0.44637054" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49840087" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Build" order="10" sideWeight="0.49936223" weight="0.31437436" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Console" order="12" />
@@ -621,7 +624,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="46" />
+          <caret line="36" column="44" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#355#372#0" expanded="true" />
@@ -632,8 +635,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="328">
+          <caret line="47" column="90" selection-start-line="47" selection-start-column="90" selection-end-line="47" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

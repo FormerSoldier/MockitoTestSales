@@ -44,6 +44,20 @@ public class SalesAppTest {
 		Assert.assertNull(result);
 	}
 
+	@Test
+	public void testGetSales_given_sales_effectiveForm_after_today_sales_effectiveTo_after_today_and_salesDao_then_return_null(){
+		Sales sales = createSaleWith(new Date(new Date().getTime() + 1000), new Date(new Date().getTime() + 1000));
+
+		SalesDao salesDao = mock(SalesDao.class);
+		when(salesDao.getSalesBySalesId(any())).thenReturn(sales);
+
+		SalesApp salesApp = new SalesApp();
+		Sales result = salesApp.getSales(any(),salesDao);
+
+		Assert.assertNull(result);
+	}
+
+
 
 
 	public Sales createSaleWith(Date effectiveForm, Date effectiveTo){
