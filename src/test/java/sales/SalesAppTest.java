@@ -19,17 +19,37 @@ public class SalesAppTest {
 	}
 
 	@Test
-	public void testGetSales_given_sales_EffectiveFrom_before_tody_and_effectoveTo_after_today_and_salesDao_thenSales(){
-		Sales sale = mock(Sales.class);
-		when(sale.getEffectiveFrom()).thenReturn(new Date(new Date().getTime() - 1000));
-		when(sale.getEffectiveTo()).thenReturn(new Date(new Date().getTime() + 1000));
+	public void testGetSales_given_sales_effectiveFrom_before_tody_and_effectiveTo_after_today_and_salesDao_then_return_sales(){
+		Sales sales = createSaleWith(new Date(new Date().getTime() - 1000), new Date(new Date().getTime() + 1000));
 
 		SalesDao salesDao = mock(SalesDao.class);
-		when(salesDao.getSalesBySalesId(any())).thenReturn(sale);
+		when(salesDao.getSalesBySalesId(any())).thenReturn(sales);
 
 		SalesApp salesApp = new SalesApp();
 		Sales result = salesApp.getSales(any(),salesDao);
 
 		Assert.assertNotNull(result);
+	}
+
+	@Test
+	public void testGetSales_given_sales_effectiveForm_before_today_sales_effectiveTo_before_today_and_salesDao_then_return_null(){
+		Sales sales = createSaleWith(new Date(new Date().getTime() - 1000), new Date(new Date().getTime() - 1000));
+
+		SalesDao salesDao = mock(SalesDao.class);
+		when(salesDao.getSalesBySalesId(any())).thenReturn(sales);
+
+		SalesApp salesApp = new SalesApp();
+		Sales result = salesApp.getSales(any(),salesDao);
+
+		Assert.assertNull(result);
+	}
+
+
+
+	public Sales createSaleWith(Date effectiveForm, Date effectiveTo){
+		Sales sales = mock(Sales.class);
+		when(sales.getEffectiveFrom()).thenReturn(effectiveForm);
+		when(sales.getEffectiveTo()).thenReturn(effectiveTo);
+		return sales;
 	}
 }
