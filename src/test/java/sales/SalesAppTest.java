@@ -3,10 +3,7 @@ package sales;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.*;
@@ -70,6 +67,15 @@ public class SalesAppTest {
 		List<SalesReportData> tempList = salesApp.getSalesReportData(reportDataList.size()-1,reportDataList);
 
 		Assert.assertEquals(10,tempList.size());
+	}
+
+	@Test
+	public void test_get_strings_headers_given_true_then_return_the_list_include_elements_SalesID_SalesName_Activity_LocalTime(){
+		SalesApp salesApp = new SalesApp();
+		List<String> headers = salesApp.getStringsHeaders(true);
+
+		List<String> expected = Arrays.asList("Sales ID", "Sales Name", "Activity", "Time");
+		Assert.assertEquals(expected,headers);
 	}
 
 
