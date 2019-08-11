@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac936da6-47ea-4a31-95d5-c27b6dda3731" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/sales/SalesApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sales/SalesApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
+            <state relative-caret-position="373">
+              <caret line="105" column="43" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,12 +63,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="81" />
+            <state relative-caret-position="233">
+              <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1355#1372#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,8 +111,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="189" />
-    <option name="y" value="119" />
+    <option name="x" value="649" />
+    <option name="y" value="17" />
     <option name="width" value="1627" />
     <option name="height" value="1025" />
   </component>
@@ -176,7 +187,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../InOrderParkingStrategyTestAnswer.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -195,8 +206,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SalesAppTest.test_get_strings_headers_given_false_then_return_the_list_include_elements_SalesID_SalesName_Activity_LocalTime">
-    <configuration name="SalesAppTest.s" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SalesAppTest.test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_true_then_return_the_size_of_list_is_2">
+    <configuration name="SalesAppTest.test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_true_then_return_the_size_of_list_is_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myHomework" />
       <extension name="coverage">
         <pattern>
@@ -206,13 +217,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="sales" />
       <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
-      <option name="METHOD_NAME" value="s" />
+      <option name="METHOD_NAME" value="test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_true_then_return_the_size_of_list_is_2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalesAppTest.testGetSales_given_sales_effectiveForm_after_today_sales_effectiveTo_after_today_and_salesDao_then_return_null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myHomework" />
       <extension name="coverage">
         <pattern>
@@ -222,7 +233,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="sales" />
       <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
-      <option name="METHOD_NAME" value="testGetSales_given_sales_effectiveForm_after_today_sales_effectiveTo_after_today_and_salesDao_then_return_null" />
+      <option name="METHOD_NAME" value="test_get_sales_report_data_by_get_report_data" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -278,11 +289,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SalesAppTest.test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_true_then_return_the_size_of_list_is_2" />
+        <item itemvalue="JUnit.SalesAppTest.test_get_sales_report_data_by_get_report_data" />
         <item itemvalue="JUnit.SalesAppTest.test_get_strings_headers_given_false_then_return_the_list_include_elements_SalesID_SalesName_Activity_LocalTime" />
         <item itemvalue="JUnit.SalesAppTest.test_get_strings_headers_given_true_then_return_the_list_include_elements_SalesID_SalesName_Activity_LocalTime" />
         <item itemvalue="JUnit.SalesAppTest.test_get_sales_report_data_given_max_row_less_than_or_equals_the_size_of_report_data_list_and_report_data_list_then_return_the_equlas_list_with_report_data_list" />
-        <item itemvalue="JUnit.SalesAppTest.s" />
-        <item itemvalue="JUnit.SalesAppTest.testGetSales_given_sales_effectiveForm_after_today_sales_effectiveTo_after_today_and_salesDao_then_return_null" />
       </list>
     </recent_temporary>
   </component>
@@ -300,35 +311,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SalesAppTest_testGetSales_given_sales_effectiveTo_before_today_and_salesDao_then_return_null - 2019.08.11 at 17h 09m 20s.xml">
-      <configuration name="SalesAppTest.testGetSales_given_sales_effectiveTo_before_today_and_salesDao_then_return_null" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 18h 28m 07s.xml">
+      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_testGetSales_given_sales_effectiveTo_before_today_and_salesDao_then_return_null - 2019.08.11 at 17h 11m 28s.xml">
-      <configuration name="SalesAppTest.testGetSales_given_sales_effectiveTo_before_today_and_salesDao_then_return_null" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 18h 41m 01s.xml">
+      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_testGetSales_given_sales_effectiveForm_before_today_sales_effectiveTo_before_today_and_salesDao_then_return_null - 2019.08.11 at 17h 14m 02s.xml">
-      <configuration name="SalesAppTest.testGetSales_given_sales_effectiveForm_before_today_sales_effectiveTo_before_today_and_salesDao_then_return_null" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 18h 41m 42s.xml">
+      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_testGetSales_given_sales_effectiveForm_after_today_sales_effectiveTo_after_today_and_salesDao_then_return_null - 2019.08.11 at 17h 15m 21s.xml">
-      <configuration name="SalesAppTest.testGetSales_given_sales_effectiveForm_after_today_sales_effectiveTo_after_today_and_salesDao_then_return_null" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 18h 58m 32s.xml">
+      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_s - 2019.08.11 at 17h 19m 45s.xml">
-      <configuration name="SalesAppTest.s" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 18h 59m 27s.xml">
+      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_s - 2019.08.11 at 17h 21m 41s.xml">
-      <configuration name="SalesAppTest.s" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 19h 00m 13s.xml">
+      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_s - 2019.08.11 at 17h 23m 05s.xml">
-      <configuration name="SalesAppTest.s" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 19h 00m 53s.xml">
+      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_s - 2019.08.11 at 17h 23m 17s.xml">
-      <configuration name="SalesAppTest.s" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 19h 00m 56s.xml">
+      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_s - 2019.08.11 at 17h 23m 45s.xml">
-      <configuration name="SalesAppTest.s" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 19h 01m 19s.xml">
+      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_test_get_sales_report_data_given_max_row_less_than_or_equals_the_size_of_report_data_list_and_report_data_list_then_return_the_equlas_list_with_report_data_list - 2019.08.11 at 17h 27m 30s.xml">
-      <configuration name="SalesAppTest.test_get_sales_report_data_given_max_row_less_than_or_equals_the_size_of_report_data_list_and_report_data_list_then_return_the_equlas_list_with_report_data_list" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 19h 01m 50s.xml">
+      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -347,14 +358,14 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8251599" weight="0.44637054" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" weight="0.39869988" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.82196164" visible="true" weight="0.44637054" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4968017" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49733475" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5026652" side_tool="true" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49626866" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.17803837" side_tool="true" visible="true" weight="0.44637054" />
       <window_info anchor="bottom" id="Build" order="10" sideWeight="0.49936223" weight="0.31437436" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Console" order="12" />
@@ -375,7 +386,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java</url>
-          <line>27</line>
+          <line>32</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -504,13 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sales/EcmService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesActivityReport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -532,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesReportData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -556,6 +553,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesReportDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sales/EcmService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesReportData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/Matchers.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -568,32 +586,26 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesReportDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="260">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="81" />
+        <state relative-caret-position="233">
+          <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1355#1372#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
+        <state relative-caret-position="373">
+          <caret line="105" column="43" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

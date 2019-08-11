@@ -2,12 +2,17 @@ package sales;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
 
 import java.util.*;
 
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.*;
 
+@RunWith(MockitoJUnitRunner.class)
 public class SalesAppTest {
 
 	@Test
@@ -87,7 +92,26 @@ public class SalesAppTest {
 		Assert.assertEquals(expected,headers);
 	}
 
+	@Test
+	public void test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_true_then_return_the_size_of_list_is_2(){
+		List<SalesReportData> filteredReportDataList = new ArrayList<>();
+		filteredReportDataList.add(createSalesReportData("SalesActivity",true));
+		filteredReportDataList.add(createSalesReportData("SalesActivity",false));
+		filteredReportDataList.add(createSalesReportData("SalesStop",true));
+		filteredReportDataList.add(createSalesReportData("SalesStop",false));
 
+		SalesApp salesApp = new SalesApp();
+		List<SalesReportData> result = salesApp.getFilteredReportDataListByReportDataListAndSupervistor(filteredReportDataList,true);
+
+		Assert.assertEquals(2,result.size());
+	}
+
+	public SalesReportData createSalesReportData(String type, Boolean isConfidential){
+		SalesReportData salesReportData = mock(SalesReportData.class);
+		when(salesReportData.getType()).thenReturn(type);
+		when(salesReportData.isConfidential()).thenReturn(isConfidential);
+		return salesReportData;
+	}
 
 	public Sales createSaleWith(Date effectiveForm, Date effectiveTo){
 		Sales sales = mock(Sales.class);

@@ -8,8 +8,6 @@ import java.util.List;
 public class SalesApp {
 
 	public void generateSalesActivityReport(String salesId, int maxRow, boolean isNatTrade, boolean isSupervisor) {
-		List<SalesReportData> filteredReportDataList = new ArrayList<SalesReportData>();
-		
 		if (salesId == null) {
 			return;
 		}
@@ -18,7 +16,11 @@ public class SalesApp {
 		Sales sales = getSales(salesId, salesDao);
 		if (sales == null) return;
 
-		List<SalesReportData> reportDataList = getSalesReportDataBygetReportData(isSupervisor, filteredReportDataList, sales);
+		SalesReportDao salesReportDao = new SalesReportDao();
+		List<SalesReportData> reportDataList = salesReportDao.getReportData(sales);
+
+		List<SalesReportData> filteredReportDataList = getFilteredReportDataListByReportDataListAndSupervistor(reportDataList,isSupervisor);
+
 		List<SalesReportData> tempList = getSalesReportData(maxRow, reportDataList);
 		filteredReportDataList = tempList;
 
@@ -29,6 +31,22 @@ public class SalesApp {
 		EcmService ecmService = new EcmService();
 		ecmService.uploadDocument(report.toXml());
 		
+	}
+
+	public List<SalesReportData> getFilteredReportDataListByReportDataListAndSupervistor(List<SalesReportData> reportDataList, boolean isSupervisor){
+		List<SalesReportData> filteredReportDataList = new ArrayList<SalesReportData>();
+		for (SalesReportData data : reportDataList) {
+			if ("SalesActivity".equalsIgnoreCase(data.getType())) {
+				if (data.isConfidential()) {
+					if (isSupervisor) {
+						filteredReportDataList.add(data);
+					}
+				}else {
+					filteredReportDataList.add(data);
+				}
+			}
+		}
+		return filteredReportDataList;
 	}
 
 	public Sales getSales(String salesId, SalesDao salesDao) {
@@ -57,24 +75,6 @@ public class SalesApp {
 			headers = Arrays.asList("Sales ID", "Sales Name", "Activity", "Local Time");
 		}
 		return headers;
-	}
-
-	public List<SalesReportData> getSalesReportDataBygetReportData(boolean isSupervisor, List<SalesReportData> filteredReportDataList, Sales sales) {
-		SalesReportDao salesReportDao = new SalesReportDao();
-		List<SalesReportData> reportDataList = salesReportDao.getReportData(sales);
-
-		for (SalesReportData data : reportDataList) {
-			if ("SalesActivity".equalsIgnoreCase(data.getType())) {
-				if (data.isConfidential()) {
-					if (isSupervisor) {
-						filteredReportDataList.add(data);
-					}
-				}else {
-					filteredReportDataList.add(data);
-				}
-			}
-		}
-		return reportDataList;
 	}
 
 	public SalesActivityReport generateReport(List<String> headers, List<SalesReportData> reportDataList) {
