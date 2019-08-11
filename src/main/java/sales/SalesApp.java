@@ -6,18 +6,15 @@ import java.util.Date;
 import java.util.List;
 
 public class SalesApp {
-
-
+	SalesReportDao salesReportDao = new SalesReportDao();
+	SalesDao salesDao = new SalesDao();
 	public void generateSalesActivityReport(String salesId, int maxRow, boolean isNatTrade, boolean isSupervisor) {
 		if (salesId == null) {
 			return;
 		}
-
-		SalesDao salesDao = new SalesDao();
 		Sales sales = getSales(salesId, salesDao);
 		if (sales == null) return;
 
-		SalesReportDao salesReportDao = new SalesReportDao();
 		List<SalesReportData> reportDataList = salesReportDao.getReportData(sales);
 
 		List<SalesReportData> filteredReportDataList = getFilteredReportDataListByReportDataListAndSupervistor(reportDataList,isSupervisor);

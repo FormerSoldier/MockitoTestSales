@@ -22,6 +22,13 @@ public class SalesAppTest {
 		salesApp.generateSalesActivityReport("DUMMY", 1000, false, false);
 	}*/
 
+	@Mock
+	SalesDao salesDao;
+	@Mock
+	SalesReportDao salesReportDao;
+	@InjectMocks
+	SalesApp salesApp ;
+
 	@Test
 	public void testGetSales_given_sales_effectiveFrom_before_tody_and_effectiveTo_after_today_and_salesDao_then_return_sales(){
 		Sales sales = createSaleWith(new Date(new Date().getTime() - 1000), new Date(new Date().getTime() + 1000));
@@ -148,6 +155,23 @@ public class SalesAppTest {
 		verify(salesApp,times(0)).generateReport(any(),any());
 	}
 
+	@Test
+	public void test_generate_sales_activity_report_given_empty_string_0_true_true_then_all_function_execute(){
+		SalesApp new_salesApp = spy(salesApp);
+		Sales sales = createSaleWith(new Date(new Date().getTime() - 1000*60), new Date(new Date().getTime() + 1000*60));
+
+		when(salesReportDao.getReportData(any())).thenReturn(new ArrayList<>());
+		when(salesDao.getSalesBySalesId(anyString())).thenReturn(sales);
+		doReturn(new SalesActivityReport()).when(new_salesApp).generateReport(anyList(),anyList());
+
+        new_salesApp.generateSalesActivityReport("Dummy",0, true,true);
+
+		verify(new_salesApp,times(1)).getSales(eq("Dummy"),any());
+		verify(new_salesApp,times(1)).getFilteredReportDataListByReportDataListAndSupervistor(any(),anyBoolean());
+		verify(new_salesApp,times(1)).getSalesReportData(anyInt(),any());
+		verify(new_salesApp,times(1)).getStringsHeaders(anyBoolean());
+		verify(new_salesApp,times(1)).generateReport(any(),any());
+	}
 
 
 	public SalesReportData createSalesReportData(String type, Boolean isConfidential){
