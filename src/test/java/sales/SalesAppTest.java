@@ -3,8 +3,10 @@ package sales;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.*;
@@ -57,7 +59,18 @@ public class SalesAppTest {
 		Assert.assertNull(result);
 	}
 
+	@Test
+	public void test_get_sales_report_data_given_max_row_less_than_or_equals_the_size_of_report_data_list_and_report_data_list_then_return_the_equlas_list_with_report_data_list(){
+		SalesApp salesApp = new SalesApp();
+		List<SalesReportData> reportDataList = new ArrayList<>();
 
+		for(int i = 0 ; i < 10; i++)
+			reportDataList.add(mock(SalesReportData.class));
+
+		List<SalesReportData> tempList = salesApp.getSalesReportData(reportDataList.size()-1,reportDataList);
+
+		Assert.assertEquals(10,tempList.size());
+	}
 
 
 	public Sales createSaleWith(Date effectiveForm, Date effectiveTo){
