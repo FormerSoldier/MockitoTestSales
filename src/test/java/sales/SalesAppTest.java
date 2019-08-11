@@ -106,6 +106,21 @@ public class SalesAppTest {
 		Assert.assertEquals(2,result.size());
 	}
 
+	@Test
+	public void test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_false_then_return_the_size_of_list_is_1(){
+		List<SalesReportData> filteredReportDataList = new ArrayList<>();
+		filteredReportDataList.add(createSalesReportData("SalesActivity",true));
+		filteredReportDataList.add(createSalesReportData("SalesActivity",false));
+		filteredReportDataList.add(createSalesReportData("SalesStop",true));
+		filteredReportDataList.add(createSalesReportData("SalesStop",false));
+
+		SalesApp salesApp = new SalesApp();
+		List<SalesReportData> result = salesApp.getFilteredReportDataListByReportDataListAndSupervistor(filteredReportDataList,false);
+
+		Assert.assertEquals(1,result.size());
+	}
+
+
 	public SalesReportData createSalesReportData(String type, Boolean isConfidential){
 		SalesReportData salesReportData = mock(SalesReportData.class);
 		when(salesReportData.getType()).thenReturn(type);

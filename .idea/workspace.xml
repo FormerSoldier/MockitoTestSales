@@ -206,7 +206,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SalesAppTest.test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_true_then_return_the_size_of_list_is_2">
+  <component name="RunManager" selected="JUnit.SalesAppTest.test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_false_then_return_the_size_of_list_is_1">
+    <configuration name="SalesAppTest.test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_false_then_return_the_size_of_list_is_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sales" />
+      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
+      <option name="METHOD_NAME" value="test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_false_then_return_the_size_of_list_is_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SalesAppTest.test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_true_then_return_the_size_of_list_is_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myHomework" />
       <extension name="coverage">
@@ -234,22 +250,6 @@
       <option name="PACKAGE_NAME" value="sales" />
       <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
       <option name="METHOD_NAME" value="test_get_sales_report_data_by_get_report_data" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SalesAppTest.test_get_sales_report_data_given_max_row_less_than_or_equals_the_size_of_report_data_list_and_report_data_list_then_return_the_equlas_list_with_report_data_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myHomework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sales" />
-      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
-      <option name="METHOD_NAME" value="test_get_sales_report_data_given_max_row_less_than_or_equals_the_size_of_report_data_list_and_report_data_list_then_return_the_equlas_list_with_report_data_list" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -289,11 +289,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SalesAppTest.test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_false_then_return_the_size_of_list_is_1" />
         <item itemvalue="JUnit.SalesAppTest.test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_true_then_return_the_size_of_list_is_2" />
         <item itemvalue="JUnit.SalesAppTest.test_get_sales_report_data_by_get_report_data" />
         <item itemvalue="JUnit.SalesAppTest.test_get_strings_headers_given_false_then_return_the_list_include_elements_SalesID_SalesName_Activity_LocalTime" />
         <item itemvalue="JUnit.SalesAppTest.test_get_strings_headers_given_true_then_return_the_list_include_elements_SalesID_SalesName_Activity_LocalTime" />
-        <item itemvalue="JUnit.SalesAppTest.test_get_sales_report_data_given_max_row_less_than_or_equals_the_size_of_report_data_list_and_report_data_list_then_return_the_equlas_list_with_report_data_list" />
       </list>
     </recent_temporary>
   </component>
