@@ -7,6 +7,7 @@ import java.util.List;
 
 public class SalesApp {
 
+
 	public void generateSalesActivityReport(String salesId, int maxRow, boolean isNatTrade, boolean isSupervisor) {
 		if (salesId == null) {
 			return;

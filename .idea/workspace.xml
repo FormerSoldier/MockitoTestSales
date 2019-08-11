@@ -53,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="105" column="43" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
+            <state relative-caret-position="153">
+              <caret line="147" column="46" selection-start-line="147" selection-start-column="46" selection-end-line="147" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,19 +63,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+            <state relative-caret-position="220">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1355#1372#0" expanded="true" />
@@ -206,7 +197,70 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SalesAppTest.test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_false_then_return_the_size_of_list_is_1">
+  <component name="RunManager" selected="JUnit.SalesAppTest.test_generate_sales_activity_report_given_null_1_true_true">
+    <configuration name="SalesAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sales" />
+      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesAppTest.test_generate_sales_activity_report" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sales" />
+      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
+      <option name="METHOD_NAME" value="test_generate_sales_activity_report" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesAppTest.test_generate_sales_activity_report_given_null_1_true_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sales" />
+      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
+      <option name="METHOD_NAME" value="test_generate_sales_activity_report_given_null_1_true_true" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesAppTest.test_generate_sales_activity_report_given_null_1_true_true_then_return" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sales" />
+      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
+      <option name="METHOD_NAME" value="test_generate_sales_activity_report_given_null_1_true_true_then_return" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SalesAppTest.test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_false_then_return_the_size_of_list_is_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myHomework" />
       <extension name="coverage">
@@ -223,77 +277,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalesAppTest.test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_true_then_return_the_size_of_list_is_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myHomework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sales" />
-      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
-      <option name="METHOD_NAME" value="test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_true_then_return_the_size_of_list_is_2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myHomework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sales" />
-      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
-      <option name="METHOD_NAME" value="test_get_sales_report_data_by_get_report_data" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SalesAppTest.test_get_strings_headers_given_false_then_return_the_list_include_elements_SalesID_SalesName_Activity_LocalTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myHomework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sales" />
-      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
-      <option name="METHOD_NAME" value="test_get_strings_headers_given_false_then_return_the_list_include_elements_SalesID_SalesName_Activity_LocalTime" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SalesAppTest.test_get_strings_headers_given_true_then_return_the_list_include_elements_SalesID_SalesName_Activity_LocalTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myHomework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sales" />
-      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
-      <option name="METHOD_NAME" value="test_get_strings_headers_given_true_then_return_the_list_include_elements_SalesID_SalesName_Activity_LocalTime" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SalesAppTest.test_generate_sales_activity_report_given_null_1_true_true" />
+        <item itemvalue="JUnit.SalesAppTest.test_generate_sales_activity_report_given_null_1_true_true_then_return" />
+        <item itemvalue="JUnit.SalesAppTest" />
+        <item itemvalue="JUnit.SalesAppTest.test_generate_sales_activity_report" />
         <item itemvalue="JUnit.SalesAppTest.test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_false_then_return_the_size_of_list_is_1" />
-        <item itemvalue="JUnit.SalesAppTest.test_get_filtered_report_dataList_by_report_dataList_and_supervistor_given_filtered_report_dataList_and_true_then_return_the_size_of_list_is_2" />
-        <item itemvalue="JUnit.SalesAppTest.test_get_sales_report_data_by_get_report_data" />
-        <item itemvalue="JUnit.SalesAppTest.test_get_strings_headers_given_false_then_return_the_list_include_elements_SalesID_SalesName_Activity_LocalTime" />
-        <item itemvalue="JUnit.SalesAppTest.test_get_strings_headers_given_true_then_return_the_list_include_elements_SalesID_SalesName_Activity_LocalTime" />
       </list>
     </recent_temporary>
   </component>
@@ -311,35 +301,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 18h 28m 07s.xml">
-      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_test_generate_sales_activity_report - 2019.08.11 at 19h 30m 07s.xml">
+      <configuration name="SalesAppTest.test_generate_sales_activity_report" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 18h 41m 01s.xml">
-      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_test_generate_sales_activity_report_given_null_1_true_true - 2019.08.11 at 19h 32m 01s.xml">
+      <configuration name="SalesAppTest.test_generate_sales_activity_report_given_null_1_true_true" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 18h 41m 42s.xml">
-      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
+    <history-entry file="SalesAppTest - 2019.08.11 at 19h 33m 59s.xml">
+      <configuration name="SalesAppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 18h 58m 32s.xml">
-      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
+    <history-entry file="SalesAppTest - 2019.08.11 at 19h 34m 16s.xml">
+      <configuration name="SalesAppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 18h 59m 27s.xml">
-      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_test_generate_sales_activity_report_given_null_1_true_true_then_return - 2019.08.11 at 19h 38m 24s.xml">
+      <configuration name="SalesAppTest.test_generate_sales_activity_report_given_null_1_true_true_then_return" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 19h 00m 13s.xml">
-      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_test_generate_sales_activity_report_given_null_1_true_true - 2019.08.11 at 19h 38m 27s.xml">
+      <configuration name="SalesAppTest.test_generate_sales_activity_report_given_null_1_true_true" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 19h 00m 53s.xml">
-      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_test_generate_sales_activity_report_given_null_1_true_true - 2019.08.11 at 19h 38m 55s.xml">
+      <configuration name="SalesAppTest.test_generate_sales_activity_report_given_null_1_true_true" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 19h 00m 56s.xml">
-      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_test_generate_sales_activity_report_given_null_1_true_true - 2019.08.11 at 19h 39m 14s.xml">
+      <configuration name="SalesAppTest.test_generate_sales_activity_report_given_null_1_true_true" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 19h 01m 19s.xml">
-      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_test_generate_sales_activity_report_given_null_1_true_true - 2019.08.11 at 19h 39m 29s.xml">
+      <configuration name="SalesAppTest.test_generate_sales_activity_report_given_null_1_true_true" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_test_get_sales_report_data_by_get_report_data - 2019.08.11 at 19h 01m 50s.xml">
-      <configuration name="SalesAppTest.test_get_sales_report_data_by_get_report_data" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_test_generate_sales_activity_report_given_null_1_true_true - 2019.08.11 at 19h 40m 04s.xml">
+      <configuration name="SalesAppTest.test_generate_sales_activity_report_given_null_1_true_true" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -358,14 +348,14 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.82196164" visible="true" weight="0.44637054" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8208955" visible="true" weight="0.44637054" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4968017" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49626866" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.17803837" side_tool="true" visible="true" weight="0.44637054" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49520257" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.17910448" side_tool="true" visible="true" weight="0.44637054" />
       <window_info anchor="bottom" id="Build" order="10" sideWeight="0.49936223" weight="0.31437436" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Console" order="12" />
@@ -380,18 +370,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/dbnavigator.xml">
@@ -593,8 +571,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        <state relative-caret-position="220">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1355#1372#0" expanded="true" />
@@ -604,8 +582,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="105" column="43" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
+        <state relative-caret-position="153">
+          <caret line="147" column="46" selection-start-line="147" selection-start-column="46" selection-end-line="147" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

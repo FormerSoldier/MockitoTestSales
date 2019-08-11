@@ -15,12 +15,12 @@ import static org.mockito.Mockito.*;
 @RunWith(MockitoJUnitRunner.class)
 public class SalesAppTest {
 
-	@Test
+	/*@Test
 	public void testGenerateReport() {
 		
 		SalesApp salesApp = new SalesApp();
 		salesApp.generateSalesActivityReport("DUMMY", 1000, false, false);
-	}
+	}*/
 
 	@Test
 	public void testGetSales_given_sales_effectiveFrom_before_tody_and_effectiveTo_after_today_and_salesDao_then_return_sales(){
@@ -119,6 +119,35 @@ public class SalesAppTest {
 
 		Assert.assertEquals(1,result.size());
 	}
+
+	@Test
+	public void test_generate_sales_activity_report_given_null_1_true_true_then_return(){
+		SalesApp salesApp = spy(new SalesApp());
+
+		salesApp.generateSalesActivityReport(null,1, true,true);
+
+		verify(salesApp,times(0)).getSales(any(),any());
+		verify(salesApp,times(0)).getFilteredReportDataListByReportDataListAndSupervistor(any(),anyBoolean());
+		verify(salesApp,times(0)).getSalesReportData(anyInt(),any());
+		verify(salesApp,times(0)).getStringsHeaders(anyBoolean());
+		verify(salesApp,times(0)).generateReport(any(),any());
+	}
+
+	@Test
+	public void test_generate_sales_activity_report_given_empty_string_1_true_true(){
+		SalesApp salesApp = spy(new SalesApp());
+
+		doReturn(null).when(salesApp).getSales(anyString(),any());
+
+		salesApp.generateSalesActivityReport("",1, true,true);
+
+		verify(salesApp,times(1)).getSales(anyString(),any());
+		verify(salesApp,times(0)).getFilteredReportDataListByReportDataListAndSupervistor(any(),anyBoolean());
+		verify(salesApp,times(0)).getSalesReportData(anyInt(),any());
+		verify(salesApp,times(0)).getStringsHeaders(anyBoolean());
+		verify(salesApp,times(0)).generateReport(any(),any());
+	}
+
 
 
 	public SalesReportData createSalesReportData(String type, Boolean isConfidential){
