@@ -70,13 +70,23 @@ public class SalesAppTest {
 	}
 
 	@Test
-	public void test_get_strings_headers_given_true_then_return_the_list_include_elements_SalesID_SalesName_Activity_LocalTime(){
+	public void test_get_strings_headers_given_true_then_return_the_list_include_elements_SalesID_SalesName_Activity_Time(){
 		SalesApp salesApp = new SalesApp();
 		List<String> headers = salesApp.getStringsHeaders(true);
 
 		List<String> expected = Arrays.asList("Sales ID", "Sales Name", "Activity", "Time");
 		Assert.assertEquals(expected,headers);
 	}
+
+	@Test
+	public void test_get_strings_headers_given_false_then_return_the_list_include_elements_SalesID_SalesName_Activity_LocalTime(){
+		SalesApp salesApp = new SalesApp();
+		List<String> headers = salesApp.getStringsHeaders(false);
+
+		List<String> expected = Arrays.asList("Sales ID", "Sales Name", "Activity", "Local Time");
+		Assert.assertEquals(expected,headers);
+	}
+
 
 
 	public Sales createSaleWith(Date effectiveForm, Date effectiveTo){
